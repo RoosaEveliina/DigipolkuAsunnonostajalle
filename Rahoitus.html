@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheet.css">
+
+        <title>Asuntopolku</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-light bg-light navbar-expand-md" >
+            <div class= "container">
+              <a class="navbar-brand" href="surprise.html">
+                  <img src="img/home.png" height= "80" alt="logo" id="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                  <div class="collapse navbar-collapse" id="navbarMenu">
+                      <ul class="navbar-nav ml-auto">
+                          <li class="nav-item active">
+                              <a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Etusivu</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="pelisivu.html">Matkasi</a>
+                          </li> 
+                          <li class="nav-item">
+                              <a class="nav-link" href="inspiroidu.html">Inspiroidu</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="Rahoitusetusivu.html">Rahoitus</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="Asunnot.html">Asunnot</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="viestit.html">Viestit</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="Kirjaudu.html">Kirjaudu</a>
+                        </li>                      
+                      </ul>
+                  </div>
+                </div>
+          </nav>
+          
+          <div class="text-center">
+            <div class="row"> 
+                <div class = "col-12"><h1>Rahoitus</h1></div>                               
+            </div>
+        </div>
+
+        <div class = "form">
+        <form action="Hakemus">
+            <legend>Yhteystiedot</legend>
+            <label for="fname">Nimi</label><br>
+                <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Sähköposti</label><br>
+                <input type="text" id="lname" name="lname"><br>
+            <label for="lname">Puhelinnumero</label><br>
+                <input type="text" id="lname" name="lname">
+        </form>
+
+        
+        <form>
+            <legend>Yleiset tiedot</legend>
+            <p>Mitä olet ostamassa?</p>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Asunto-osake</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Kiinteistö</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Asumisoikeusasunto</label><br>
+            <p>Ostatko asunnon jonkun kanssa?</p>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Kyllä</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Ei</label><br>
+            <label for="lname">Miltä alueelta olet ostamassa asuntoa?</label><br>
+                <input type="text" id="lname" name="lname">
+          </form>
+
+          <form>
+            <legend>Tietoa hakijasta</legend>
+            <p>Siviilisääty</p>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Avoliitto</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Avioliitto/Rekisteröity parisuhde</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Naimaton</label><br>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Leski</label><br>
+            <label for="country">Lasten lukumäärä</label><br>
+            <select id="country" name="country"><br>
+              <option value="australia">Valitse</option><br>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select><br>
+            <label for="country">Koulutus</label><br>
+    <select id="country" name="country">
+      <option value="australia">Valitse</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      
+
+    </select>
+          </form>
+
+          <form action="Hakemus">
+          <legend>Haettava lainamäärä</legend>
+          <label for="fname">Arvioitu velaton hinta €</label><br>
+          <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Muut kustannukset €</label><br>
+      <input type="text" id="lname" name="lname"><br>
+      <label for="lname">Yhtiölaina, jota ei makset asunnon oston yhteydessä €</label><br>         
+          <input type="text" id="lname" name="lname"><br>
+      <label for="lname">Omarahoitusosuus €</label><br>
+          <input type="text" id="lname" name="lname">          
+          </form>
+
+          <form>
+            <legend>Lainat ja luotot</legend>
+            <p>Onko sinulla muita lainoja</p>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Kyllä</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Ei</label><br>   <label for="lname">Mistä sinulla on lainoja?</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="lname">Paljonko sinulla on lainaa?</label><br>
+                <input type="text" id="lname" name="lname">
+          </form>
+
+          <form>
+            <legend>Tulotiedot</legend>
+            <label for="fname">Kuukausitulot ennen veroja €</label><br>
+                <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Kuukausitulot verojen jälkeen €</label><br>
+                <input type="text" id="lname" name="lname"><br>             
+            <label for="country">Työsuhde</label><br>
+    <select id="country" name="country">
+      <option value="australia">Valitse</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+          </form>
+
+          <form>
+            <legend>Menot</legend>
+                <label for="fname">Kiinteät kuukausimenot €</label><br>
+                <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Vaihtuvat kuukausimenot €</label><br>
+                <input type="text" id="lname" name="lname"><br>
+            <label for="country">Autojen lukumäärä</label><br>
+    <select id="country" name="country">
+      <option value="australia">Valitse</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+          </form>
+
+        </div>
+    </div>
+
+    <h4>Valitse pankit, joihin haluat lähettää hakemuksesi</h4>
+
+    <div class = "pankit">
+        <div class="text-center">
+            <div class="row">
+                <div class = "col-4"></div>
+                <div class = "col-4"><img class="img-fluid" src="img/danske.png" alt="snowman" style="max-width:300px; padding-top: 30px;" >
+               <div class = "col-4"></div>                                    
+            </div>
+        </div>
+           
+        <div class="text-center">
+            <div class="row">
+                <div class = "col-4"></div>
+                <div class = "col-4"><img class="img-fluid" src="img/S-Pankki.jpg" alt="snowman" style="max-width:300px; max-height:200px">
+               <div class = "col-4"></div>                                    
+            </div>
+        </div>
+        <div class="text-center">
+            <div class="row">
+                <div class = "col-4"></div>
+                <div class = "col-4"><img class="img-fluid" src="img/aktia.png" alt="snowman" style="max-height:60px">
+               <div class = "col-4"></div>                                    
+            </div>
+        </div>
+        <div class="text-center">
+            <div class="row">
+                <div class = "col-4"></div>
+                <div class = "col-4"><img class="img-fluid" src="img/ålansbanken.png" alt="snowman" style="max-width:300px">
+               <div class = "col-4"></div>                                    
+            </div>
+        </div> 
+        <div class="text-center">
+            <div class="row">
+                <div class = "col-4"></div>
+                <div class = "col-4"><img class="img-fluid" src="img/Nordea.png" alt="snowman" style="max-width:200px; padding: 30px;">
+               <div class = "col-4"></div>                                    
+            </div>
+        </div>   
+        <div class="text-center">
+            <div class="row">
+                <div class = "col-4"></div>
+                <div class = "col-4"><img class="img-fluid" src="img/OP.png" alt="snowman" style = "padding: 50px;">
+               <div class = "col-4"></div>                                    
+            </div>
+        </div>
+    </div>
+
+    
+    <div id= "chatbox">
+        <img src="img/chatbox.png" style="max-height: 80px; max-width: 400px; width: 100%;"></div>  
+    </div>
+
+         <footer >
+             <p>Laurea ammattikorkeakoulu 2021</p>
+         </footer>
+        
+          
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js.js"></script>
+  </body>
+</html>
